@@ -1,0 +1,73 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "PrivateVoting",
+  "sourceName": "contracts/PrivateVoting.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "encryptedNoTotal",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "encryptedYesTotal",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getResults",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "yes",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "no",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "encryptedVote",
+          "type": "bytes32"
+        }
+      ],
+      "name": "vote",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561000f575f80fd5b505f808055600155610120806100245f395ff3fe608060405234801561000f575f80fd5b506004361061004a575f3560e01c806320c841c51461004e5780634717f97c14610069578063a69beaba14610083578063e3e08e6f14610098575b5f80fd5b6100565f5481565b6040519081526020015b60405180910390f35b5f5460015460408051928352602083019190915201610060565b6100966100913660046100dd565b6100a1565b005b61005660015481565b80156100b7576100b25f54826100c9565b5f5550565b6100c3600154826100c9565b60015550565b5f6100d482846100f4565b90505b92915050565b5f602082840312156100ed575f80fd5b5035919050565b808201808211156100d757634e487b7160e01b5f52601160045260245ffdfea164736f6c6343000818000a",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b506004361061004a575f3560e01c806320c841c51461004e5780634717f97c14610069578063a69beaba14610083578063e3e08e6f14610098575b5f80fd5b6100565f5481565b6040519081526020015b60405180910390f35b5f5460015460408051928352602083019190915201610060565b6100966100913660046100dd565b6100a1565b005b61005660015481565b80156100b7576100b25f54826100c9565b5f5550565b6100c3600154826100c9565b60015550565b5f6100d482846100f4565b90505b92915050565b5f602082840312156100ed575f80fd5b5035919050565b808201808211156100d757634e487b7160e01b5f52601160045260245ffdfea164736f6c6343000818000a",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

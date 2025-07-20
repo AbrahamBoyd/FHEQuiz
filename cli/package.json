@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "ethers": "^6.7.0",
+    "dotenv": "^16.3.1",
+    "fhevmjs": "file:../fhevmjs"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
